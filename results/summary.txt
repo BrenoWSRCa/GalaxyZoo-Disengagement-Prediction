@@ -1,0 +1,7 @@
+There are 943 unique id's
+There are 13370 unique time stamp's
+The total recorded time is 13 days 00:40:00.
+The step size is: 0 days 00:01:00
+
+The longest recorded session had 0 days 03:36:00
+The test dataset vs the total dataset ratio is 0.22.

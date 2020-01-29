@@ -1,0 +1,1723 @@
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/bin/python /Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py
+ 1:   0.00%
+ 2:   9.03%
+ 3:  16.91%
+ 4:  22.17%
+ 5:  29.72%
+ 6:  34.65%
+ 7:  38.75%
+ 8:  42.69%
+ 9:  46.96%
+10:  49.75%
+Discarded samples ratio   0.00%
+Discarded samples ratio   0.00%
+Showing results with window_size = 1
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.83      0.68    4902.0
+         1.0       0.61      0.30      0.40    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.59      0.57      0.54    9124.0
+weighted avg       0.59      0.59      0.55    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.87      0.68    4902.0
+         1.0       0.56      0.19      0.28    4222.0
+
+    accuracy                           0.55    9124.0
+   macro avg       0.56      0.53      0.48    9124.0
+weighted avg       0.56      0.55      0.49    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.10      0.18    4902.0
+         1.0       0.47      0.92      0.62    4222.0
+
+    accuracy                           0.48    9124.0
+   macro avg       0.54      0.51      0.40    9124.0
+weighted avg       0.54      0.48      0.38    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.69      0.64    4902.0
+         1.0       0.56      0.46      0.50    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.57      0.57    9124.0
+weighted avg       0.58      0.58      0.57    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.61      0.57    4902.0
+         1.0       0.47      0.40      0.43    4222.0
+
+    accuracy                           0.51    9124.0
+   macro avg       0.50      0.50      0.50    9124.0
+weighted avg       0.51      0.51      0.51    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      1.00      0.70    4902.0
+         1.0       0.00      0.00      0.00    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.27      0.50      0.35    9124.0
+weighted avg       0.29      0.54      0.38    9124.0
+
+Discarded samples ratio   9.03%
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Discarded samples ratio  10.34%
+Showing results with window_size = 2
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.82      0.68    4902.0
+         1.0       0.59      0.31      0.40    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.59      0.56      0.54    9124.0
+weighted avg       0.59      0.58      0.55    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.82      0.68    4902.0
+         1.0       0.59      0.30      0.40    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.56      0.54    9124.0
+weighted avg       0.58      0.58      0.55    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      1.00      0.70    4902.0
+         1.0       0.00      0.00      0.00    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.27      0.50      0.35    9124.0
+weighted avg       0.29      0.54      0.38    9124.0
+
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.68      0.64    4902.0
+         1.0       0.57      0.49      0.53    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.59      0.59      0.59    9124.0
+weighted avg       0.59      0.59      0.59    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.64      0.61    4902.0
+         1.0       0.53      0.46      0.49    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.55      0.55      0.55    9124.0
+weighted avg       0.56      0.56      0.56    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.82      0.68    4902.0
+         1.0       0.60      0.31      0.41    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.59      0.56      0.54    9124.0
+weighted avg       0.59      0.58      0.55    9124.0
+
+Discarded samples ratio  16.91%
+Discarded samples ratio  18.72%
+Showing results with window_size = 3
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.76      0.66    4902.0
+         1.0       0.57      0.38      0.45    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.57      0.56    9124.0
+weighted avg       0.58      0.58      0.57    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.83      0.68    4902.0
+         1.0       0.59      0.29      0.39    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.56      0.53    9124.0
+weighted avg       0.58      0.58      0.55    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      1.00      0.70    4902.0
+         1.0       0.00      0.00      0.00    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.27      0.50      0.35    9124.0
+weighted avg       0.29      0.54      0.38    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.61      0.68      0.64    4902.0
+         1.0       0.57      0.49      0.52    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.59      0.58      0.58    9124.0
+weighted avg       0.59      0.59      0.59    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.71      0.63    4902.0
+         1.0       0.53      0.39      0.45    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.55      0.55      0.54    9124.0
+weighted avg       0.55      0.56      0.55    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.80      0.68    4902.0
+         1.0       0.61      0.35      0.44    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.60      0.58      0.56    9124.0
+weighted avg       0.60      0.59      0.57    9124.0
+
+Discarded samples ratio  22.17%
+Discarded samples ratio  25.62%
+Showing results with window_size = 4
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.72      0.64    4902.0
+         1.0       0.55      0.40      0.46    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.56      0.56      0.55    9124.0
+weighted avg       0.57      0.57      0.56    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.84      0.68    4902.0
+         1.0       0.60      0.28      0.39    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.59      0.56      0.53    9124.0
+weighted avg       0.59      0.58      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.51      0.45      0.48    4902.0
+         1.0       0.44      0.50      0.47    4222.0
+
+    accuracy                           0.48    9124.0
+   macro avg       0.48      0.48      0.48    9124.0
+weighted avg       0.48      0.48      0.48    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.69      0.64    4902.0
+         1.0       0.57      0.47      0.51    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.58      0.58      0.58    9124.0
+weighted avg       0.59      0.59      0.58    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.77      0.66    4902.0
+         1.0       0.57      0.36      0.44    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.56      0.55    9124.0
+weighted avg       0.58      0.58      0.56    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      1.00      0.70    4902.0
+         1.0       1.00      0.02      0.03    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.77      0.51      0.37    9124.0
+weighted avg       0.75      0.54      0.39    9124.0
+
+Discarded samples ratio  29.72%
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Discarded samples ratio  29.06%
+Showing results with window_size = 5
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.77      0.66    4902.0
+         1.0       0.55      0.33      0.41    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.56      0.55      0.53    9124.0
+weighted avg       0.56      0.57      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.84      0.68    4902.0
+         1.0       0.60      0.28      0.38    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.59      0.56      0.53    9124.0
+weighted avg       0.59      0.58      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.56      0.57    4902.0
+         1.0       0.52      0.55      0.53    4222.0
+
+    accuracy                           0.55    9124.0
+   macro avg       0.55      0.55      0.55    9124.0
+weighted avg       0.56      0.55      0.56    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.70      0.65    4902.0
+         1.0       0.57      0.46      0.51    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.59      0.58      0.58    9124.0
+weighted avg       0.59      0.59      0.58    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.77      0.66    4902.0
+         1.0       0.56      0.33      0.41    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.56      0.55      0.54    9124.0
+weighted avg       0.56      0.57      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.97      0.70    4902.0
+         1.0       0.71      0.09      0.16    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.63      0.53      0.43    9124.0
+weighted avg       0.62      0.56      0.45    9124.0
+
+Discarded samples ratio  34.65%
+Discarded samples ratio  33.50%
+Showing results with window_size = 6
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.74      0.65    4902.0
+         1.0       0.55      0.37      0.44    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.56      0.56      0.55    9124.0
+weighted avg       0.57      0.57      0.55    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.87      0.69    4902.0
+         1.0       0.63      0.26      0.37    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.60      0.57      0.53    9124.0
+weighted avg       0.60      0.59      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.37      0.45    4902.0
+         1.0       0.48      0.66      0.55    4222.0
+
+    accuracy                           0.51    9124.0
+   macro avg       0.52      0.52      0.50    9124.0
+weighted avg       0.52      0.51      0.50    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.71      0.65    4902.0
+         1.0       0.57      0.45      0.51    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.59      0.58      0.58    9124.0
+weighted avg       0.59      0.59      0.58    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.76      0.64    4902.0
+         1.0       0.51      0.28      0.36    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.53      0.52      0.50    9124.0
+weighted avg       0.53      0.54      0.51    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.83      0.68    4902.0
+         1.0       0.61      0.30      0.40    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.60      0.57      0.54    9124.0
+weighted avg       0.59      0.59      0.55    9124.0
+
+Discarded samples ratio  38.75%
+Discarded samples ratio  37.93%
+Showing results with window_size = 7
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.77      0.65    4902.0
+         1.0       0.54      0.32      0.40    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.55      0.54      0.53    9124.0
+weighted avg       0.55      0.56      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.87      0.69    4902.0
+         1.0       0.63      0.25      0.35    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.60      0.56      0.52    9124.0
+weighted avg       0.60      0.58      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.79      0.65    4902.0
+         1.0       0.51      0.25      0.34    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.53      0.52      0.49    9124.0
+weighted avg       0.53      0.54      0.51    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.72      0.65    4902.0
+         1.0       0.58      0.45      0.50    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.59      0.58      0.58    9124.0
+weighted avg       0.59      0.59      0.58    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.79      0.66    4902.0
+         1.0       0.56      0.31      0.40    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.57      0.55      0.53    9124.0
+weighted avg       0.57      0.57      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.86      0.68    4902.0
+         1.0       0.60      0.25      0.35    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.58      0.55      0.52    9124.0
+weighted avg       0.58      0.57      0.53    9124.0
+
+Discarded samples ratio  42.69%
+Discarded samples ratio  41.87%
+Showing results with window_size = 8
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.78      0.66    4902.0
+         1.0       0.57      0.33      0.42    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.57      0.56      0.54    9124.0
+weighted avg       0.57      0.57      0.55    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.88      0.70    4902.0
+         1.0       0.65      0.24      0.35    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.61      0.56      0.53    9124.0
+weighted avg       0.61      0.59      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.37      0.44    4902.0
+         1.0       0.47      0.65      0.55    4222.0
+
+    accuracy                           0.50    9124.0
+   macro avg       0.51      0.51      0.49    9124.0
+weighted avg       0.51      0.50      0.49    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.72      0.65    4902.0
+         1.0       0.57      0.43      0.49    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.58      0.58      0.57    9124.0
+weighted avg       0.58      0.59      0.58    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.80      0.66    4902.0
+         1.0       0.56      0.29      0.38    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.56      0.55      0.52    9124.0
+weighted avg       0.56      0.56      0.53    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      1.00      0.70    4902.0
+         1.0       0.00      0.00      0.00    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.27      0.50      0.35    9124.0
+weighted avg       0.29      0.54      0.38    9124.0
+
+Discarded samples ratio  46.96%
+Discarded samples ratio  46.80%
+Showing results with window_size = 9
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.81      0.67    4902.0
+         1.0       0.58      0.31      0.41    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.56      0.54    9124.0
+weighted avg       0.58      0.58      0.55    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.89      0.70    4902.0
+         1.0       0.64      0.23      0.34    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.61      0.56      0.52    9124.0
+weighted avg       0.60      0.58      0.53    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.63      0.59    4902.0
+         1.0       0.50      0.42      0.45    4222.0
+
+    accuracy                           0.53    9124.0
+   macro avg       0.53      0.53      0.52    9124.0
+weighted avg       0.53      0.53      0.53    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.73      0.66    4902.0
+         1.0       0.57      0.41      0.48    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.57      0.57    9124.0
+weighted avg       0.58      0.58      0.57    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.82      0.67    4902.0
+         1.0       0.58      0.28      0.37    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.57      0.55      0.52    9124.0
+weighted avg       0.57      0.57      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.99      0.70    4902.0
+         1.0       0.61      0.02      0.04    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.57      0.50      0.37    9124.0
+weighted avg       0.57      0.54      0.39    9124.0
+
+Discarded samples ratio  49.75%
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Discarded samples ratio  50.74%
+Showing results with window_size = 10
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.82      0.68    4902.0
+         1.0       0.59      0.30      0.40    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.56      0.54    9124.0
+weighted avg       0.58      0.58      0.55    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.90      0.70    4902.0
+         1.0       0.64      0.21      0.31    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.60      0.55      0.51    9124.0
+weighted avg       0.60      0.58      0.52    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.96      0.69    4902.0
+         1.0       0.50      0.04      0.08    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.52      0.50      0.39    9124.0
+weighted avg       0.52      0.54      0.41    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.75      0.66    4902.0
+         1.0       0.58      0.40      0.47    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.58      0.57      0.56    9124.0
+weighted avg       0.58      0.59      0.57    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.84      0.67    4902.0
+         1.0       0.57      0.25      0.35    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.57      0.54      0.51    9124.0
+weighted avg       0.57      0.57      0.52    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.90      0.69    4902.0
+         1.0       0.63      0.19      0.29    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.60      0.55      0.49    9124.0
+weighted avg       0.59      0.57      0.51    9124.0
+
+Discarded samples ratio  53.37%
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Discarded samples ratio  53.69%
+Showing results with window_size = 11
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.82      0.68    4902.0
+         1.0       0.59      0.29      0.39    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.56      0.53    9124.0
+weighted avg       0.58      0.58      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.89      0.69    4902.0
+         1.0       0.62      0.20      0.31    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.59      0.55      0.50    9124.0
+weighted avg       0.59      0.57      0.52    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.68      0.61    4902.0
+         1.0       0.49      0.35      0.41    4222.0
+
+    accuracy                           0.53    9124.0
+   macro avg       0.52      0.52      0.51    9124.0
+weighted avg       0.52      0.53      0.51    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.75      0.66    4902.0
+         1.0       0.57      0.38      0.45    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.57      0.56    9124.0
+weighted avg       0.58      0.58      0.56    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.83      0.67    4902.0
+         1.0       0.57      0.25      0.35    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.56      0.54      0.51    9124.0
+weighted avg       0.56      0.56      0.52    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.88      0.70    4902.0
+         1.0       0.64      0.24      0.35    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.61      0.56      0.52    9124.0
+weighted avg       0.60      0.58      0.53    9124.0
+
+Discarded samples ratio  55.99%
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Discarded samples ratio  55.67%
+Showing results with window_size = 12
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.85      0.69    4902.0
+         1.0       0.63      0.29      0.40    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.60      0.57      0.54    9124.0
+weighted avg       0.60      0.59      0.56    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.91      0.70    4902.0
+         1.0       0.65      0.19      0.29    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.61      0.55      0.50    9124.0
+weighted avg       0.61      0.58      0.51    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.53      0.94      0.68    4902.0
+         1.0       0.40      0.05      0.08    4222.0
+
+    accuracy                           0.53    9124.0
+   macro avg       0.47      0.49      0.38    9124.0
+weighted avg       0.47      0.53      0.40    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.77      0.66    4902.0
+         1.0       0.58      0.37      0.45    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.57      0.56    9124.0
+weighted avg       0.58      0.58      0.56    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.85      0.68    4902.0
+         1.0       0.58      0.24      0.34    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.57      0.54      0.51    9124.0
+weighted avg       0.57      0.57      0.52    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.93      0.70    4902.0
+         1.0       0.66      0.17      0.27    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.61      0.55      0.49    9124.0
+weighted avg       0.61      0.58      0.50    9124.0
+
+Discarded samples ratio  58.46%
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Discarded samples ratio  56.65%
+Showing results with window_size = 13
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.85      0.69    4902.0
+         1.0       0.62      0.29      0.39    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.60      0.57      0.54    9124.0
+weighted avg       0.60      0.59      0.55    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.92      0.70    4902.0
+         1.0       0.64      0.16      0.26    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.60      0.54      0.48    9124.0
+weighted avg       0.60      0.57      0.49    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.96      0.69    4902.0
+         1.0       0.42      0.04      0.07    4222.0
+
+    accuracy                           0.53    9124.0
+   macro avg       0.48      0.50      0.38    9124.0
+weighted avg       0.48      0.53      0.40    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.78      0.67    4902.0
+         1.0       0.58      0.36      0.44    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.58      0.57      0.56    9124.0
+weighted avg       0.58      0.58      0.56    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.86      0.68    4902.0
+         1.0       0.58      0.22      0.32    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.57      0.54      0.50    9124.0
+weighted avg       0.57      0.56      0.51    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.93      0.70    4902.0
+         1.0       0.67      0.17      0.28    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.62      0.55      0.49    9124.0
+weighted avg       0.61      0.58      0.51    9124.0
+
+Discarded samples ratio  60.10%
+Discarded samples ratio  58.13%
+Showing results with window_size = 14
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.59      0.87      0.70    4902.0
+         1.0       0.66      0.29      0.40    4222.0
+
+    accuracy                           0.60    9124.0
+   macro avg       0.62      0.58      0.55    9124.0
+weighted avg       0.62      0.60      0.56    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.93      0.70    4902.0
+         1.0       0.64      0.15      0.24    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.60      0.54      0.47    9124.0
+weighted avg       0.60      0.57      0.48    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.93      0.69    4902.0
+         1.0       0.54      0.09      0.16    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.54      0.51      0.42    9124.0
+weighted avg       0.54      0.54      0.44    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.79      0.67    4902.0
+         1.0       0.59      0.35      0.43    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.59      0.57      0.55    9124.0
+weighted avg       0.58      0.58      0.56    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.88      0.69    4902.0
+         1.0       0.60      0.20      0.30    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.58      0.54      0.49    9124.0
+weighted avg       0.58      0.57      0.51    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.99      0.70    4902.0
+         1.0       0.53      0.02      0.03    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.53      0.50      0.36    9124.0
+weighted avg       0.53      0.54      0.39    9124.0
+
+Discarded samples ratio  61.90%
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Discarded samples ratio  61.08%
+Showing results with window_size = 15
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.87      0.69    4902.0
+         1.0       0.63      0.26      0.37    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.60      0.56      0.53    9124.0
+weighted avg       0.60      0.59      0.54    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.94      0.70    4902.0
+         1.0       0.66      0.13      0.22    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.61      0.54      0.46    9124.0
+weighted avg       0.61      0.57      0.48    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.70      0.61    4902.0
+         1.0       0.46      0.30      0.36    4222.0
+
+    accuracy                           0.52    9124.0
+   macro avg       0.50      0.50      0.49    9124.0
+weighted avg       0.50      0.52      0.49    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.81      0.68    4902.0
+         1.0       0.60      0.33      0.43    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.59      0.57      0.55    9124.0
+weighted avg       0.59      0.59      0.56    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.91      0.70    4902.0
+         1.0       0.63      0.19      0.29    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.60      0.55      0.49    9124.0
+weighted avg       0.59      0.57      0.51    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.92      0.71    4902.0
+         1.0       0.69      0.21      0.32    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.63      0.56      0.51    9124.0
+weighted avg       0.63      0.59      0.53    9124.0
+
+Discarded samples ratio  64.86%
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Discarded samples ratio  62.56%
+Showing results with window_size = 16
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.91      0.70    4902.0
+         1.0       0.67      0.22      0.33    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.62      0.56      0.51    9124.0
+weighted avg       0.62      0.59      0.53    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.95      0.70    4902.0
+         1.0       0.69      0.12      0.21    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.62      0.54      0.46    9124.0
+weighted avg       0.62      0.57      0.47    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.98      0.70    4902.0
+         1.0       0.59      0.03      0.06    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.57      0.51      0.38    9124.0
+weighted avg       0.56      0.54      0.40    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.81      0.68    4902.0
+         1.0       0.60      0.33      0.43    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.59      0.57      0.55    9124.0
+weighted avg       0.59      0.59      0.56    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.93      0.70    4902.0
+         1.0       0.64      0.15      0.24    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.60      0.54      0.47    9124.0
+weighted avg       0.59      0.57      0.48    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.94      0.70    4902.0
+         1.0       0.68      0.15      0.24    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.62      0.54      0.47    9124.0
+weighted avg       0.62      0.57      0.49    9124.0
+
+Discarded samples ratio  65.68%
+Discarded samples ratio  64.04%
+Showing results with window_size = 17
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.88      0.69    4902.0
+         1.0       0.62      0.23      0.33    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.59      0.55      0.51    9124.0
+weighted avg       0.59      0.58      0.52    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.96      0.71    4902.0
+         1.0       0.73      0.11      0.20    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.64      0.54      0.45    9124.0
+weighted avg       0.64      0.57      0.47    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.84      0.66    4902.0
+         1.0       0.51      0.19      0.28    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.53      0.52      0.47    9124.0
+weighted avg       0.53      0.54      0.49    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.82      0.68    4902.0
+         1.0       0.61      0.32      0.42    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.59      0.57      0.55    9124.0
+weighted avg       0.59      0.59      0.56    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.93      0.69    4902.0
+         1.0       0.59      0.12      0.19    4222.0
+
+    accuracy                           0.55    9124.0
+   macro avg       0.57      0.52      0.44    9124.0
+weighted avg       0.57      0.55      0.46    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.97      0.71    4902.0
+         1.0       0.75      0.11      0.20    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.65      0.54      0.45    9124.0
+weighted avg       0.65      0.57      0.47    9124.0
+
+Discarded samples ratio  68.64%
+Discarded samples ratio  65.52%
+Showing results with window_size = 18
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.90      0.69    4902.0
+         1.0       0.62      0.19      0.29    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.59      0.55      0.49    9124.0
+weighted avg       0.59      0.57      0.51    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.97      0.71    4902.0
+         1.0       0.72      0.10      0.18    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.64      0.53      0.44    9124.0
+weighted avg       0.63      0.57      0.46    9124.0
+
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.90      0.68    4902.0
+         1.0       0.49      0.11      0.18    4222.0
+
+    accuracy                           0.54    9124.0
+   macro avg       0.52      0.51      0.43    9124.0
+weighted avg       0.52      0.54      0.45    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.83      0.68    4902.0
+         1.0       0.61      0.31      0.41    4222.0
+
+    accuracy                           0.59    9124.0
+   macro avg       0.60      0.57      0.55    9124.0
+weighted avg       0.60      0.59      0.56    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.94      0.69    4902.0
+         1.0       0.61      0.12      0.20    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.58      0.53      0.44    9124.0
+weighted avg       0.58      0.56      0.46    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.98      0.70    4902.0
+         1.0       0.74      0.06      0.11    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.65      0.52      0.41    9124.0
+weighted avg       0.64      0.56      0.43    9124.0
+
+Discarded samples ratio  69.95%
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Discarded samples ratio  66.01%
+Showing results with window_size = 19
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.89      0.69    4902.0
+         1.0       0.60      0.19      0.29    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.58      0.54      0.49    9124.0
+weighted avg       0.58      0.57      0.50    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.97      0.71    4902.0
+         1.0       0.72      0.10      0.18    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.64      0.53      0.44    9124.0
+weighted avg       0.63      0.57      0.46    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.54      0.91      0.68    4902.0
+         1.0       0.48      0.10      0.17    4222.0
+
+    accuracy                           0.53    9124.0
+   macro avg       0.51      0.50      0.42    9124.0
+weighted avg       0.51      0.53      0.44    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.83      0.68    4902.0
+         1.0       0.60      0.30      0.40    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.59      0.56      0.54    9124.0
+weighted avg       0.59      0.58      0.55    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.94      0.70    4902.0
+         1.0       0.62      0.12      0.20    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.59      0.53      0.45    9124.0
+weighted avg       0.59      0.56      0.47    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:470: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.91      0.70    4902.0
+         1.0       0.64      0.19      0.29    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.60      0.55      0.49    9124.0
+weighted avg       0.60      0.57      0.51    9124.0
+
+Discarded samples ratio  70.61%
+Discarded samples ratio  66.01%
+Showing results with window_size = 20
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  clf.fit(X_train, y_train)
+Random Forest:
+              precision    recall  f1-score   support
+
+         0.0       0.57      0.89      0.70    4902.0
+         1.0       0.64      0.23      0.33    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.61      0.56      0.52    9124.0
+weighted avg       0.60      0.58      0.53    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Logistic Regression:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.97      0.71    4902.0
+         1.0       0.74      0.10      0.18    4222.0
+
+    accuracy                           0.57    9124.0
+   macro avg       0.65      0.54      0.44    9124.0
+weighted avg       0.64      0.57      0.46    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.90      0.68    4902.0
+         1.0       0.56      0.14      0.23    4222.0
+
+    accuracy                           0.55    9124.0
+   macro avg       0.55      0.52      0.46    9124.0
+weighted avg       0.55      0.55      0.47    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/naive_bayes.py:206: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Gaussian Naive Bayes:
+              precision    recall  f1-score   support
+
+         0.0       0.58      0.83      0.68    4902.0
+         1.0       0.60      0.29      0.39    4222.0
+
+    accuracy                           0.58    9124.0
+   macro avg       0.59      0.56      0.54    9124.0
+weighted avg       0.59      0.58      0.55    9124.0
+
+/Users/brenocarvalho/PycharmProjects/xai_phd_test/windowed_predict.py:52: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  clf.fit(X_train, y_train)
+KNearest Neighbours, K = 15:
+              precision    recall  f1-score   support
+
+         0.0       0.55      0.93      0.69    4902.0
+         1.0       0.56      0.11      0.18    4222.0
+
+    accuracy                           0.55    9124.0
+   macro avg       0.55      0.52      0.43    9124.0
+weighted avg       0.55      0.55      0.45    9124.0
+
+/Users/brenocarvalho/miniconda3/envs/xai_phd_test/lib/python3.7/site-packages/sklearn/neural_network/_multilayer_perceptron.py:934: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Multilayer Perceptron:
+              precision    recall  f1-score   support
+
+         0.0       0.56      0.92      0.69    4902.0
+         1.0       0.61      0.15      0.24    4222.0
+
+    accuracy                           0.56    9124.0
+   macro avg       0.58      0.53      0.47    9124.0
+weighted avg       0.58      0.56      0.48    9124.0
+
+                                         accuracy       AUC
+name                        window_size
+Random Forest               1            0.595841  0.523977
+Logistic Regression         1            0.585633  0.509481
+Perceptron                  1            0.484688  0.515079
+Gaussian Naive Bayes        1            0.592817  0.531935
+KNearest Neighbours, K = 15 1             0.53535   0.50303
+Multilayer Perceptron       1            0.581853       0.5
+Random Forest               2            0.595841  0.527538
+Logistic Regression         2            0.597353  0.527693
+Perceptron                  2            0.581853       0.5
+Gaussian Naive Bayes        2            0.603025  0.547702
+KNearest Neighbours, K = 15 2            0.544802  0.516495
+Multilayer Perceptron       2            0.599622  0.530787
+Random Forest               3            0.597732  0.541119
+Logistic Regression         3            0.597353  0.527948
+Perceptron                  3            0.581853       0.5
+Gaussian Naive Bayes        3            0.603025  0.548211
+KNearest Neighbours, K = 15 3            0.564461  0.520033
+Multilayer Perceptron       3            0.604537  0.537809
+Random Forest               4            0.579962  0.533735
+Logistic Regression         4            0.595841  0.525885
+Perceptron                  4            0.490359  0.475435
+Gaussian Naive Bayes        4            0.599622  0.544778
+KNearest Neighbours, K = 15 4            0.582609  0.531303
+Multilayer Perceptron       4            0.584499  0.503165
+Random Forest               5            0.583743  0.533932
+Logistic Regression         5            0.595841  0.525503
+Perceptron                  5            0.546692  0.517865
+Gaussian Naive Bayes        5            0.599622  0.544397
+KNearest Neighbours, K = 15 5            0.579962  0.522797
+Multilayer Perceptron       5             0.58828  0.509084
+Random Forest               6             0.56862  0.520173
+Logistic Regression         6            0.598488  0.527142
+Perceptron                  6            0.496408  0.510523
+Gaussian Naive Bayes        6            0.599244   0.54369
+KNearest Neighbours, K = 15 6            0.567486  0.509532
+Multilayer Perceptron       6                 0.6  0.533402
+Random Forest               7            0.568242  0.515269
+Logistic Regression         7            0.596975  0.524952
+Perceptron                  7            0.554631  0.503446
+Gaussian Naive Bayes        7            0.601134  0.545315
+KNearest Neighbours, K = 15 7            0.579584  0.521327
+Multilayer Perceptron       7            0.598866  0.530392
+Random Forest               8            0.575425  0.518135
+Logistic Regression         8            0.598866  0.526449
+Perceptron                  8             0.49603  0.501676
+Gaussian Naive Bayes        8            0.597353  0.541048
+KNearest Neighbours, K = 15 8            0.581474  0.520153
+Multilayer Perceptron       8            0.581853       0.5
+Random Forest               9            0.582987  0.522343
+Logistic Regression         9            0.597353  0.524259
+Perceptron                  9            0.532703  0.498721
+Gaussian Naive Bayes        9            0.597732  0.540737
+KNearest Neighbours, K = 15 9             0.59017  0.527244
+Multilayer Perceptron       9            0.583743  0.503914
+Random Forest               10           0.586389   0.52425
+Logistic Regression         10           0.594707  0.520586
+Perceptron                  10           0.580718  0.505131
+Gaussian Naive Bayes        10           0.598488  0.540242
+KNearest Neighbours, K = 15 10            0.59017  0.525336
+Multilayer Perceptron       10           0.592817  0.518961
+Random Forest               11           0.589414  0.525704
+Logistic Regression         11           0.593195  0.518905
+Perceptron                  11           0.528166  0.486936
+Gaussian Naive Bayes        11           0.595841  0.536569
+KNearest Neighbours, K = 15 11           0.587902  0.523005
+Multilayer Perceptron       11           0.596597  0.526535
+Random Forest               12           0.595841  0.530718
+Logistic Regression         12           0.592817  0.517435
+Perceptron                  12           0.572401  0.499764
+Gaussian Naive Bayes        12           0.597732  0.537939
+KNearest Neighbours, K = 15 12           0.589036  0.521818
+Multilayer Perceptron       12           0.595085  0.520529
+Random Forest               13           0.600378  0.535253
+Logistic Regression         13           0.589792  0.513437
+Perceptron                  13           0.578072  0.502729
+Gaussian Naive Bayes        13           0.596597  0.535565
+KNearest Neighbours, K = 15 13           0.588658  0.521747
+Multilayer Perceptron       13           0.600378  0.526604
+Random Forest               14           0.601512  0.534956
+Logistic Regression         14           0.588658  0.511699
+Perceptron                  14           0.572401   0.50536
+Gaussian Naive Bayes        14           0.596597  0.534548
+KNearest Neighbours, K = 15 14           0.587902  0.519317
+Multilayer Perceptron       14           0.582987  0.502755
+Random Forest               15           0.598488  0.530576
+Logistic Regression         15           0.587524  0.509707
+Perceptron                  15           0.532325  0.490765
+Gaussian Naive Bayes        15           0.598866   0.53548
+KNearest Neighbours, K = 15 15           0.596597  0.526789
+Multilayer Perceptron       15           0.601134   0.52967
+Random Forest               16            0.59811  0.528089
+Logistic Regression         16           0.587902  0.509777
+Perceptron                  16           0.582231  0.504268
+Gaussian Naive Bayes        16           0.599244  0.534914
+KNearest Neighbours, K = 15 16           0.594707  0.522621
+Multilayer Perceptron       16           0.590548  0.514977
+Random Forest               17           0.597732  0.528654
+Logistic Regression         17           0.589036  0.510243
+Perceptron                  17           0.560681  0.504574
+Gaussian Naive Bayes        17                0.6  0.535055
+KNearest Neighbours, K = 15 17           0.587902  0.514483
+Multilayer Perceptron       17           0.596975  0.520754
+Random Forest               18           0.593573  0.523045
+Logistic Regression         18           0.587902  0.508887
+Perceptron                  18           0.570132  0.502139
+Gaussian Naive Bayes        18           0.601134  0.535394
+KNearest Neighbours, K = 15 18           0.591682  0.517987
+Multilayer Perceptron       18           0.587524  0.508562
+Random Forest               19           0.593573  0.522409
+Logistic Regression         19           0.587524  0.508435
+Perceptron                  19           0.570132  0.502648
+Gaussian Naive Bayes        19           0.599244  0.533261
+KNearest Neighbours, K = 15 19           0.590548  0.517012
+Multilayer Perceptron       19           0.596219  0.523411
+Random Forest               20           0.598866  0.528611
+Logistic Regression         20            0.58828  0.509084
+Perceptron                  20           0.573913  0.506024
+Gaussian Naive Bayes        20           0.598488  0.531975
+KNearest Neighbours, K = 15 20           0.582609  0.509045
+Multilayer Perceptron       20           0.586011  0.516293
+All zeroes                  --           0.586011       0.5
+All ones                    --           0.586011       0.5
+
+Process finished with exit code 0
